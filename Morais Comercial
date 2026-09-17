@@ -1,0 +1,2366 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Morais Comercial Limitada | Agronegócio</title>
+
+  <meta name="description" content="Morais Comercial Limitada - soluções e actividades ligadas ao agronegócio, agricultura e desenvolvimento sustentável.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+<!-- =========================
+     HEADER
+========================= -->
+
+<header class="header">
+
+  <div class="container nav-container">
+
+    <a href="#inicio" class="logo-area">
+
+      <!-- SUBSTITUIR PELO LINK DO LOGÓTIPO NO CODEPEN -->
+      <img src="COLOQUE_AQUI_O_LINK_DO_LOGOTIPO" 
+           alt="Morais Comercial Limitada">
+
+      <div class="logo-text">
+        <strong>Morais Comercial</strong>
+        <span>Limitada</span>
+      </div>
+
+    </a>
+
+    <nav class="navigation" id="navigation">
+
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre Nós</a>
+      <a href="#atuacao">Áreas de Actuação</a>
+      <a href="#actualizacoes">Actualizações</a>
+      <a href="#media">Media</a>
+      <a href="#produtos">Produtos/Serviços</a>
+      <a href="#contactos">Contactos</a>
+
+      <div class="mobile-auth">
+        <button onclick="abrirModal('login')">Entrar</button>
+        <button onclick="abrirModal('cadastro')" class="btn-green">
+          Criar Conta
+        </button>
+      </div>
+
+    </nav>
+
+    <div class="auth-buttons">
+
+      <button onclick="abrirModal('login')" class="btn-login">
+        Entrar
+      </button>
+
+      <button onclick="abrirModal('cadastro')" class="btn-register">
+        Criar Conta
+      </button>
+
+    </div>
+
+    <button class="menu-button" onclick="abrirMenu()">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+  </div>
+
+</header>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="hero" id="inicio">
+
+  <!-- IMAGEM PRINCIPAL -->
+  <div class="hero-image"></div>
+
+  <div class="hero-overlay"></div>
+
+  <div class="container hero-content">
+
+    <div class="hero-badge">
+      <i class="fa-solid fa-seedling"></i>
+      Agronegócio & Desenvolvimento
+    </div>
+
+    <h1>
+      Cultivamos oportunidades.
+      <span>Construímos soluções.</span>
+    </h1>
+
+    <p>
+      A Morais Comercial Limitada actua no sector do agronegócio,
+      valorizando a agricultura, a inovação e o desenvolvimento de
+      soluções capazes de contribuir para uma actividade agrícola
+      mais organizada, produtiva e sustentável.
+    </p>
+
+    <div class="hero-buttons">
+
+      <a href="#sobre" class="btn-primary">
+        Conheça a nossa empresa
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+
+      <a href="#contactos" class="btn-outline">
+        Fale connosco
+      </a>
+
+    </div>
+
+  </div>
+
+  <div class="hero-scroll">
+    <span>Descubra mais</span>
+    <i class="fa-solid fa-chevron-down"></i>
+  </div>
+
+</section>
+
+
+<!-- =========================
+     INTRODUÇÃO
+========================= -->
+
+<section class="intro-section">
+
+  <div class="container intro-grid">
+
+    <div>
+
+      <span class="section-label">
+        MORais Comercial Limitada
+      </span>
+
+      <h2>
+        Uma visão voltada para o desenvolvimento do agronegócio
+      </h2>
+
+    </div>
+
+    <div>
+
+      <p>
+        A agricultura desempenha um papel fundamental no desenvolvimento
+        económico e social das comunidades. É neste contexto que a Morais
+        Comercial Limitada procura posicionar-se como uma empresa ligada
+        ao agronegócio, acompanhando as necessidades do sector e valorizando
+        iniciativas que contribuam para o crescimento da actividade agrícola.
+      </p>
+
+      <p>
+        A nossa abordagem procura aproximar conhecimento, recursos,
+        oportunidades e parceiros, criando uma base para relações
+        comerciais sustentáveis e para o desenvolvimento de actividades
+        relacionadas com o sector agrícola.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     SOBRE
+========================= -->
+
+<section class="section about-section" id="sobre">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <span class="section-label">SOBRE NÓS</span>
+
+      <h2>
+        Quem Somos
+      </h2>
+
+      <div class="green-line"></div>
+
+    </div>
+
+
+    <div class="about-grid">
+
+      <div class="about-image">
+
+        <!-- FOTO AGRÍCOLA -->
+        <img src="COLOQUE_AQUI_A_IMAGEM_1"
+             alt="Actividade agrícola">
+
+        <div class="image-caption">
+          <i class="fa-solid fa-leaf"></i>
+          Compromisso com o agronegócio
+        </div>
+
+      </div>
+
+
+      <div class="about-content">
+
+        <h3>
+          Morais Comercial Limitada
+        </h3>
+
+        <p>
+          A Morais Comercial Limitada é uma empresa orientada para o
+          sector do agronegócio e para as oportunidades que surgem ao
+          longo da cadeia de valor agrícola.
+        </p>
+
+        <p>
+          Acreditamos que o desenvolvimento da agricultura depende não
+          apenas da produção, mas também da existência de relações
+          comerciais sólidas, organização, acesso a recursos, conhecimento,
+          inovação e capacidade de estabelecer parcerias duradouras.
+        </p>
+
+        <p>
+          Por essa razão, procuramos desenvolver uma presença empresarial
+          baseada na responsabilidade, transparência e procura contínua
+          por oportunidades que possam beneficiar os nossos parceiros,
+          clientes e comunidades.
+        </p>
+
+        <p>
+          A nossa identidade está directamente ligada à valorização da
+          agricultura e à construção de relações que permitam transformar
+          oportunidades em resultados concretos.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <!-- MISSÃO VISÃO VALORES -->
+
+    <div class="company-cards">
+
+      <div class="company-card">
+
+        <div class="card-icon">
+          <i class="fa-solid fa-bullseye"></i>
+        </div>
+
+        <h3>Missão</h3>
+
+        <p>
+          Contribuir para o desenvolvimento do sector do agronegócio
+          através de uma actuação responsável, profissional e orientada
+          para a criação de valor, estabelecendo relações de confiança
+          com clientes, parceiros e demais intervenientes.
+        </p>
+
+      </div>
+
+
+      <div class="company-card">
+
+        <div class="card-icon">
+          <i class="fa-solid fa-eye"></i>
+        </div>
+
+        <h3>Visão</h3>
+
+        <p>
+          Construir uma presença empresarial sólida no agronegócio,
+          acompanhando a evolução do sector e participando em oportunidades
+          capazes de promover crescimento, inovação e desenvolvimento
+          sustentável.
+        </p>
+
+      </div>
+
+
+      <div class="company-card">
+
+        <div class="card-icon">
+          <i class="fa-solid fa-handshake"></i>
+        </div>
+
+        <h3>Valores</h3>
+
+        <p>
+          Trabalhamos com base em princípios de responsabilidade,
+          transparência, compromisso, respeito, qualidade, confiança
+          e valorização das relações profissionais.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     ÁREAS DE ACTUAÇÃO
+========================= -->
+
+<section class="section activities-section" id="atuacao">
+
+  <div class="container">
+
+    <div class="section-heading centered">
+
+      <span class="section-label">
+        O QUE FAZEMOS
+      </span>
+
+      <h2>
+        Áreas de Actuação
+      </h2>
+
+      <div class="green-line"></div>
+
+      <p>
+        A nossa presença está direccionada para diferentes oportunidades
+        dentro do ecossistema do agronegócio, procurando acompanhar as
+        necessidades do mercado e estabelecer relações de valor.
+      </p>
+
+    </div>
+
+
+    <div class="activities-grid">
+
+
+      <div class="activity-card">
+
+        <div class="activity-image">
+          <img src="COLOQUE_AQUI_A_IMAGEM_2"
+               alt="Agricultura">
+        </div>
+
+        <div class="activity-content">
+
+          <div class="activity-icon">
+            <i class="fa-solid fa-seedling"></i>
+          </div>
+
+          <h3>Agricultura</h3>
+
+          <p>
+            Valorização das actividades agrícolas e das oportunidades
+            relacionadas com a produção e desenvolvimento do sector.
+          </p>
+
+          <button onclick="mostrarDetalhe('Agricultura')">
+            Conhecer
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <div class="activity-card">
+
+        <div class="activity-image">
+          <img src="COLOQUE_AQUI_A_IMAGEM_3"
+               alt="Tecnologia agrícola">
+        </div>
+
+        <div class="activity-content">
+
+          <div class="activity-icon">
+            <i class="fa-solid fa-droplet"></i>
+          </div>
+
+          <h3>Soluções para Agricultura</h3>
+
+          <p>
+            Valorização de práticas e soluções que podem apoiar uma
+            actividade agrícola mais eficiente e organizada.
+          </p>
+
+          <button onclick="mostrarDetalhe('Soluções para Agricultura')">
+            Conhecer
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <div class="activity-card">
+
+        <div class="activity-image">
+          <img src="COLOQUE_AQUI_A_IMAGEM_4"
+               alt="Produção agrícola">
+        </div>
+
+        <div class="activity-content">
+
+          <div class="activity-icon">
+            <i class="fa-solid fa-wheat-awn"></i>
+          </div>
+
+          <h3>Agronegócio</h3>
+
+          <p>
+            Participação em oportunidades comerciais relacionadas com
+            a cadeia de valor do agronegócio.
+          </p>
+
+          <button onclick="mostrarDetalhe('Agronegócio')">
+            Conhecer
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <div class="activity-card">
+
+        <div class="activity-image">
+          <img src="COLOQUE_AQUI_A_IMAGEM_5"
+               alt="Campo agrícola">
+        </div>
+
+        <div class="activity-content">
+
+          <div class="activity-icon">
+            <i class="fa-solid fa-tractor"></i>
+          </div>
+
+          <h3>Parcerias</h3>
+
+          <p>
+            Procuramos estabelecer relações profissionais e parcerias
+            que contribuam para o crescimento sustentável das actividades.
+          </p>
+
+          <button onclick="mostrarDetalhe('Parcerias')">
+            Conhecer
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     DESTAQUE
+========================= -->
+
+<section class="feature-section">
+
+  <div class="feature-image">
+
+    <img src="COLOQUE_AQUI_A_IMAGEM_6"
+         alt="Campo agrícola">
+
+  </div>
+
+  <div class="feature-content">
+
+    <span class="section-label">
+      AGRONEGÓCIO
+    </span>
+
+    <h2>
+      Da terra nascem oportunidades.
+    </h2>
+
+    <p>
+      O desenvolvimento do agronegócio exige visão, organização,
+      compromisso e capacidade de acompanhar as transformações
+      do sector. É com esta perspectiva que procuramos construir
+      relações comerciais capazes de gerar valor.
+    </p>
+
+    <p>
+      Mais do que participar no mercado, queremos desenvolver uma
+      identidade empresarial assente na confiança, na responsabilidade
+      e na procura de oportunidades sustentáveis.
+    </p>
+
+    <a href="#contactos" class="btn-primary">
+      Fale com a Morais Comercial
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     ACTUALIZAÇÕES
+========================= -->
+
+<section class="section updates-section" id="actualizacoes">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <span class="section-label">
+        ACTUALIZAÇÕES
+      </span>
+
+      <h2>
+        Notícias e Actualizações
+      </h2>
+
+      <div class="green-line"></div>
+
+    </div>
+
+
+    <div class="updates-grid">
+
+      <article class="update-card">
+
+        <div class="update-icon">
+          <i class="fa-solid fa-bullhorn"></i>
+        </div>
+
+        <div>
+
+          <span>Actualização</span>
+
+          <h3>
+            Novidades da Morais Comercial
+          </h3>
+
+          <p>
+            Acompanhe nesta área futuras informações, comunicados,
+            iniciativas e novidades relacionadas com a actividade
+            da empresa.
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <article class="update-card">
+
+        <div class="update-icon">
+          <i class="fa-solid fa-calendar-days"></i>
+        </div>
+
+        <div>
+
+          <span>Informação</span>
+
+          <h3>
+            Actividades e iniciativas
+          </h3>
+
+          <p>
+            Em breve serão apresentadas informações sobre actividades,
+            projectos e outras iniciativas desenvolvidas pela empresa.
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <article class="update-card">
+
+        <div class="update-icon">
+          <i class="fa-solid fa-newspaper"></i>
+        </div>
+
+        <div>
+
+          <span>Notícias</span>
+
+          <h3>
+            Acompanhe-nos
+          </h3>
+
+          <p>
+            Este espaço será utilizado para partilhar informações
+            relevantes e novidades com clientes, parceiros e visitantes.
+          </p>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     MEDIA
+========================= -->
+
+<section class="section media-section" id="media">
+
+  <div class="container">
+
+    <div class="section-heading centered">
+
+      <span class="section-label">
+        MEDIA
+      </span>
+
+      <h2>
+        O nosso trabalho em imagens
+      </h2>
+
+      <div class="green-line"></div>
+
+      <p>
+        Conheça através das imagens diferentes ambientes, actividades
+        e elementos relacionados com o sector agrícola.
+      </p>
+
+    </div>
+
+
+    <div class="gallery">
+
+      <div class="gallery-item large">
+        <img src="COLOQUE_AQUI_A_IMAGEM_2"
+             alt="Agricultura">
+      </div>
+
+      <div class="gallery-item">
+        <img src="COLOQUE_AQUI_A_IMAGEM_3"
+             alt="Campo agrícola">
+      </div>
+
+      <div class="gallery-item">
+        <img src="COLOQUE_AQUI_A_IMAGEM_4"
+             alt="Agricultura">
+      </div>
+
+      <div class="gallery-item">
+        <img src="COLOQUE_AQUI_A_IMAGEM_5"
+             alt="Irrigação agrícola">
+      </div>
+
+      <div class="gallery-item">
+        <img src="COLOQUE_AQUI_A_IMAGEM_6"
+             alt="Produção agrícola">
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     PRODUTOS / SERVIÇOS
+========================= -->
+
+<section class="section products-section" id="produtos">
+
+  <div class="container">
+
+    <div class="section-heading centered">
+
+      <span class="section-label">
+        PRODUTOS & SERVIÇOS
+      </span>
+
+      <h2>
+        Conheça as nossas áreas
+      </h2>
+
+      <div class="green-line"></div>
+
+      <p>
+        Esta área será actualizada progressivamente com informações
+        sobre os produtos, soluções e serviços disponibilizados pela
+        Morais Comercial Limitada.
+      </p>
+
+    </div>
+
+
+    <div class="product-placeholder">
+
+      <div class="placeholder-icon">
+        <i class="fa-solid fa-box-open"></i>
+      </div>
+
+      <h3>
+        Informações em actualização
+      </h3>
+
+      <p>
+        Os produtos e serviços serão apresentados nesta área à medida
+        que as informações oficiais forem disponibilizadas pela empresa.
+        Neste momento não são apresentados preços.
+      </p>
+
+      <a href="#contactos" class="btn-primary">
+        Solicitar informações
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     CTA
+========================= -->
+
+<section class="cta-section">
+
+  <div class="container cta-content">
+
+    <div>
+
+      <span class="section-label">
+        FALE CONNOSCO
+      </span>
+
+      <h2>
+        Tem uma oportunidade ou pretende saber mais?
+      </h2>
+
+      <p>
+        Entre em contacto com a Morais Comercial Limitada para
+        conhecer melhor a nossa actividade e estabelecer uma conversa
+        sobre possíveis oportunidades e parcerias.
+      </p>
+
+    </div>
+
+    <a href="#contactos" class="btn-white">
+      Contactar agora
+      <i class="fa-solid fa-arrow-right"></i>
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     CONTACTOS
+========================= -->
+
+<section class="section contact-section" id="contactos">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <span class="section-label">
+        CONTACTOS
+      </span>
+
+      <h2>
+        Estamos disponíveis para falar consigo
+      </h2>
+
+      <div class="green-line"></div>
+
+    </div>
+
+
+    <div class="contact-grid">
+
+
+      <div class="contact-info">
+
+        <p class="contact-intro">
+          Para informações, esclarecimentos, oportunidades comerciais
+          ou possíveis parcerias, entre em contacto através dos canais
+          disponibilizados pela Morais Comercial Limitada.
+        </p>
+
+
+        <div class="contact-item">
+
+          <div class="contact-icon">
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+
+          <div>
+            <span>WhatsApp</span>
+            <strong>870 528 285</strong>
+          </div>
+
+        </div>
+
+
+        <div class="contact-item">
+
+          <div class="contact-icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+
+          <div>
+            <span>Telefone</span>
+            <strong>840 528 289</strong>
+          </div>
+
+        </div>
+
+
+        <div class="contact-item">
+
+          <div class="contact-icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+
+          <div>
+            <span>Email</span>
+            <strong>mc.moraiscomercial@gmail.com</strong>
+          </div>
+
+        </div>
+
+
+        <div class="contact-item">
+
+          <div class="contact-icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+
+          <div>
+            <span>Localização</span>
+            <strong>Moçambique</strong>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="contact-form-area">
+
+        <form id="contactForm">
+
+          <div class="form-row">
+
+            <div class="form-group">
+
+              <label>Nome</label>
+
+              <input type="text"
+                     placeholder="O seu nome"
+                     required>
+
+            </div>
+
+
+            <div class="form-group">
+
+              <label>Telefone</label>
+
+              <input type="tel"
+                     placeholder="O seu contacto"
+                     required>
+
+            </div>
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label>Email</label>
+
+            <input type="email"
+                   placeholder="O seu email">
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label>Assunto</label>
+
+            <input type="text"
+                   placeholder="Como podemos ajudar?">
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label>Mensagem</label>
+
+            <textarea rows="6"
+                      placeholder="Escreva a sua mensagem..."
+                      required></textarea>
+
+          </div>
+
+
+          <button type="submit" class="btn-primary full">
+
+            Enviar mensagem
+            <i class="fa-solid fa-paper-plane"></i>
+
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+:root {
+  --verde-escuro: #075b32;
+  --verde: #0b7a43;
+  --verde-claro: #eaf7ef;
+  --verde-medio: #d5efdf;
+  --branco: #ffffff;
+  --preto: #17221c;
+  --cinza: #66736c;
+  --cinza-claro: #f6f8f7;
+  --borda: #e2e9e4;
+  --sombra: 0 15px 40px rgba(0, 60, 30, 0.10);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--preto);
+  background: var(--branco);
+  line-height: 1.7;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.container {
+  width: min(1180px, 92%);
+  margin: auto;
+}
+
+
+/* HEADER */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: rgba(255,255,255,.97);
+  border-bottom: 1px solid var(--borda);
+}
+
+.nav-container {
+  min-height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-area img {
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.logo-text strong {
+  font-size: 15px;
+  color: var(--verde-escuro);
+}
+
+.logo-text span {
+  font-size: 12px;
+  color: var(--cinza);
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.navigation a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #405048;
+  transition: .3s;
+}
+
+.navigation a:hover {
+  color: var(--verde);
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-login,
+.btn-register {
+  padding: 11px 17px;
+  border-radius: 7px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.btn-login {
+  background: var(--verde-claro);
+  color: var(--verde-escuro);
+}
+
+.btn-register {
+  background: var(--verde);
+  color: white;
+}
+
+.menu-button {
+  display: none;
+  background: transparent;
+  font-size: 23px;
+  color: var(--verde-escuro);
+}
+
+.mobile-auth {
+  display: none;
+}
+
+
+/* HERO */
+
+.hero {
+  min-height: 750px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 82px;
+}
+
+.hero-image {
+  position: absolute;
+  inset: 0;
+
+  /*
+  COLOQUE AQUI A FOTO PRINCIPAL
+  */
+  background-image: url("COLOQUE_AQUI_A_IMAGEM_PRINCIPAL");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 45, 24, .88),
+    rgba(0, 55, 30, .58),
+    rgba(0, 0, 0, .15)
+  );
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  max-width: 850px;
+}
+
+.hero-badge {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  padding: 8px 14px;
+  background: rgba(255,255,255,.14);
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 30px;
+  margin-bottom: 22px;
+  font-size: 13px;
+}
+
+.hero h1 {
+  font-size: clamp(40px, 6vw, 72px);
+  line-height: 1.05;
+  letter-spacing: -2px;
+  margin-bottom: 25px;
+}
+
+.hero h1 span {
+  display: block;
+  color: #a7e8bd;
+}
+
+.hero p {
+  max-width: 750px;
+  font-size: 17px;
+  color: rgba(255,255,255,.9);
+  margin-bottom: 32px;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.btn-primary,
+.btn-outline,
+.btn-white {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 22px;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: .3s;
+}
+
+.btn-primary {
+  background: var(--verde);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: var(--verde-escuro);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  border: 1px solid rgba(255,255,255,.6);
+  color: white;
+  background: rgba(255,255,255,.08);
+}
+
+.btn-outline:hover {
+  background: white;
+  color: var(--verde-escuro);
+}
+
+.btn-white {
+  background: white;
+  color: var(--verde-escuro);
+}
+
+.hero-scroll {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 11px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+
+/* INTRO */
+
+.intro-section {
+  padding: 90px 0;
+  background: white;
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+}
+
+.intro-grid h2 {
+  font-size: 39px;
+  line-height: 1.2;
+  margin-top: 10px;
+}
+
+.intro-grid p {
+  color: var(--cinza);
+  margin-bottom: 15px;
+}
+
+
+/* GERAL */
+
+.section {
+  padding: 100px 0;
+}
+
+.section-heading {
+  margin-bottom: 50px;
+}
+
+.section-heading.centered {
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-label {
+  color: var(--verde);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.section-heading h2 {
+  font-size: clamp(32px, 4vw, 48px);
+  line-height: 1.15;
+  margin: 8px 0 15px;
+}
+
+.section-heading p {
+  color: var(--cinza);
+}
+
+.green-line {
+  width: 55px;
+  height: 4px;
+  border-radius: 10px;
+  background: var(--verde);
+}
+
+
+/* SOBRE */
+
+.about-section {
+  background: var(--cinza-claro);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: center;
+}
+
+.about-image {
+  position: relative;
+}
+
+.about-image img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: var(--sombra);
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: white;
+  color: var(--verde-escuro);
+  padding: 12px 17px;
+  border-radius: 7px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.about-content h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  color: var(--cinza);
+  margin-bottom: 17px;
+}
+
+.company-cards {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.company-card {
+  background: white;
+  padding: 30px;
+  border: 1px solid var(--borda);
+  border-radius: 10px;
+}
+
+.card-icon,
+.activity-icon,
+.auth-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--verde-claro);
+  color: var(--verde);
+  display: grid;
+  place-items: center;
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.company-card h3 {
+  margin-bottom: 10px;
+}
+
+.company-card p {
+  color: var(--cinza);
+  font-size: 14px;
+}
+
+
+/* ACTUAÇÃO */
+
+.activities-section {
+  background: white;
+}
+
+.activities-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.activity-card {
+  border: 1px solid var(--borda);
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+  transition: .3s;
+}
+
+.activity-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--sombra);
+}
+
+.activity-image {
+  height: 260px;
+  overflow: hidden;
+}
+
+.activity-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: .5s;
+}
+
+.activity-card:hover img {
+  transform: scale(1.04);
+}
+
+.activity-content {
+  padding: 27px;
+}
+
+.activity-icon {
+  margin-top: -52px;
+  position: relative;
+  background: var(--verde);
+  color: white;
+  border: 5px solid white;
+}
+
+.activity-content h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.activity-content p {
+  color: var(--cinza);
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.activity-content button {
+  background: transparent;
+  color: var(--verde);
+  font-weight: 800;
+}
+
+.activity-content button i {
+  margin-left: 7px;
+}
+
+
+/* FEATURE */
+
+.feature-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--verde-escuro);
+  color: white;
+}
+
+.feature-image {
+  min-height: 600px;
+}
+
+.feature-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.feature-content {
+  padding: 80px 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.feature-content h2 {
+  font-size: 45px;
+  line-height: 1.15;
+  margin: 12px 0 22px;
+}
+
+.feature-content p {
+  color: rgba(255,255,255,.82);
+  margin-bottom: 15px;
+}
+
+.feature-content .btn-primary {
+  margin-top: 15px;
+}
+
+
+/* UPDATES */
+
+.updates-section {
+  background: var(--cinza-claro);
+}
+
+.updates-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.update-card {
+  background: white;
+  padding: 28px;
+  border: 1px solid var(--borda);
+  border-radius: 10px;
+  display: flex;
+  gap: 18px;
+}
+
+.update-icon {
+  min-width: 48px;
+  height: 48px;
+  background: var(--verde-claro);
+  color: var(--verde);
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+}
+
+.update-card span {
+  color: var(--verde);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.update-card h3 {
+  margin: 5px 0;
+}
+
+.update-card p {
+  font-size: 13px;
+  color: var(--cinza);
+}
+
+
+/* GALERIA */
+
+.media-section {
+  background: white;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  gap: 15px;
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.gallery-item.large {
+  grid-row: span 2;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: .5s;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+
+/* PRODUTOS */
+
+.products-section {
+  background: var(--cinza-claro);
+}
+
+.product-placeholder {
+  max-width: 750px;
+  margin: auto;
+  background: white;
+  border: 1px solid var(--borda);
+  border-radius: 12px;
+  padding: 60px 35px;
+  text-align: center;
+}
+
+.placeholder-icon {
+  width: 75px;
+  height: 75px;
+  background: var(--verde-claro);
+  color: var(--verde);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 28px;
+  margin: 0 auto 20px;
+}
+
+.product-placeholder h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.product-placeholder p {
+  color: var(--cinza);
+  margin-bottom: 25px;
+}
+
+
+/* CTA */
+
+.cta-section {
+  background: var(--verde);
+  color: white;
+  padding: 75px 0;
+}
+
+.cta-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.cta-content h2 {
+  font-size: 38px;
+  line-height: 1.2;
+  margin: 8px 0 12px;
+}
+
+.cta-content p {
+  max-width: 700px;
+  color: rgba(255,255,255,.85);
+}
+
+
+/* CONTACTO */
+
+.contact-section {
+  background: white;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: 70px;
+}
+
+.contact-intro {
+  color: var(--cinza);
+  margin-bottom: 35px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 22px;
+}
+
+.contact-icon {
+  width: 48px;
+  height: 48px;
+  background: var(--verde-claro);
+  color: var(--verde);
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.contact-item span {
+  display: block;
+  font-size: 11px;
+  color: var(--cinza);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.contact-item strong {
+  display: block;
+  color: var(--verde-escuro);
+}
+
+.contact-form-area {
+  background: var(--cinza-claro);
+  padding: 35px;
+  border-radius: 10px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.form-group {
+  margin-bottom: 17px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.form-group input,
+.form-group textarea,
+.auth-form input {
+  width: 100%;
+  border: 1px solid var(--borda);
+  background: white;
+  border-radius: 7px;
+  padding: 13px 14px;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.auth-form input:focus {
+  border-color: var(--verde);
+}
+
+.full {
+  width: 100%;
+}
+
+
+/* NEWSLETTER */
+
+.newsletter {
+  background: var(--verde-claro);
+  padding: 40px 0;
+}
+
+.newsletter-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.newsletter-content > div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.newsletter-content > div > i {
+  font-size: 30px;
+  color: var(--verde);
+}
+
+.newsletter h3 {
+  color: var(--verde-escuro);
+}
+
+.newsletter p {
+  color: var(--cinza);
+  font-size: 13px;
+}
+
+.newsletter form {
+  display: flex;
+  min-width: 400px;
+}
+
+.newsletter input {
+  flex: 1;
+  border: 1px solid var(--borda);
+  padding: 13px;
+  border-radius: 7px 0 0 7px;
+}
+
+.newsletter button {
+  background: var(--verde);
+  color: white;
+  padding: 0 20px;
+  border-radius: 0 7px 7px 0;
+  font-weight: 700;
+}
+
+
+/* FOOTER */
+
+.footer {
+  background: #062c1b;
+  color: white;
+}
+
+.footer-grid {
+  padding: 70px 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.4fr;
+  gap: 45px;
+}
+
+.footer-logo img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  background: white;
+  border-radius: 7px;
+}
+
+.footer-brand p {
+  margin: 18px 0;
+  color: rgba(255,255,255,.65);
+  font-size: 13px;
+  max-width: 370px;
+}
+
+.footer h4 {
+  margin-bottom: 17px;
+}
+
+.footer-grid > div:not(.footer-brand) a,
+.footer-grid > div:not(.footer-brand) button {
+  display: block;
+  color: rgba(255,255,255,.65);
+  margin-bottom: 9px;
+  background: transparent;
+  font-size: 13px;
+  text-align: left;
+}
+
+.footer-grid a:hover,
+.footer-grid button:hover {
+  color: white;
+}
+
+.footer-grid p {
+  color: rgba(255,255,255,.65);
+  font-size: 13px;
+  margin-bottom: 9px;
+}
+
+.footer-grid p i {
+  width: 20px;
+  color: #78d69b;
+}
+
+.socials {
+  display: flex;
+  gap: 8px;
+}
+
+.socials a {
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgba(255,255,255,.15);
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,.1);
+  padding: 18px 0;
+}
+
+.footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-bottom p {
+  color: rgba(255,255,255,.5);
+  font-size: 11px;
+}
+
+
+/* WHATSAPP */
+
+.whatsapp-button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 900;
+  background: #25D366;
+  color: white;
+  padding: 13px 18px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 13px;
+  box-shadow: 0 8px 25px rgba(0,0,0,.2);
+}
+
+.whatsapp-button i {
+  font-size: 22px;
+}
+
+
+/* MODAIS */
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.65);
+  z-index: 3000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modal.active {
+  display: flex;
+}
+
+.modal-box {
+  position: relative;
+  width: min(450px, 100%);
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.modal-close {
+  position: absolute;
+  right: 18px;
+  top: 18px;
+  background: transparent;
+  font-size: 20px;
+  color: var(--cinza);
+}
+
+.auth-icon {
+  margin: 0 auto 15px;
+}
+
+.auth-form {
+  text-align: center;
+}
+
+.auth-form h2 {
+  font-size: 28px;
+}
+
+.auth-form > p {
+  color: var(--cinza);
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.auth-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.switch-auth {
+  margin-top: 18px;
+}
+
+.switch-auth button {
+  color: var(--verde);
+  background: transparent;
+  font-weight: 700;
+}
+
+.hidden {
+  display: none;
+}
+
+.detail-box {
+  text-align: center;
+}
+
+.detail-box p {
+  color: var(--cinza);
+  margin: 20px 0;
+}
+
+
+/* RESPONSIVO */
+
+@media (max-width: 1050px) {
+
+  .navigation {
+    gap: 12px;
+  }
+
+  .navigation a {
+    font-size: 11px;
+  }
+
+  .auth-buttons {
+    display: none;
+  }
+
+}
+
+@media (max-width: 850px) {
+
+  .navigation {
+    position: fixed;
+    top: 82px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 82px);
+    background: white;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    transition: .3s;
+    overflow-y: auto;
+  }
+
+  .navigation.active {
+    left: 0;
+  }
+
+  .navigation a {
+    font-size: 15px;
+    padding: 8px 0;
+  }
+
+  .mobile-auth {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .mobile-auth button {
+    padding: 11px 15px;
+    border-radius: 7px;
+    background: var(--verde-claro);
+    color: var(--verde-escuro);
+    font-weight: 700;
+  }
+
+  .mobile-auth .btn-green {
+    background: var(--verde);
+    color: white;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
+  .intro-grid,
+  .about-grid,
+  .feature-section,
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .company-cards,
+  .updates-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .activities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-image {
+    min-height: 400px;
+  }
+
+  .newsletter-content,
+  .cta-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .newsletter form {
+    min-width: 100%;
+    width: 100%;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media (max-width: 550px) {
+
+  .hero {
+    min-height: 680px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .section {
+    padding: 70px 0;
+  }
+
+  .intro-grid {
+    gap: 25px;
+  }
+
+  .intro-grid h2 {
+    font-size: 31px;
+  }
+
+  .about-image img {
+    height: 380px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 230px;
+  }
+
+  .gallery-item.large {
+    grid-row: auto;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form-area {
+    padding: 22px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-bottom .container {
+    flex-direction: column;
+  }
+
+  .whatsapp-button span {
+    display: none;
+  }
+
+  .whatsapp-button {
+    width: 52px;
+    height: 52px;
+    padding: 0;
+    justify-content: center;
+  }
+
+// ============================
+// MENU MOBILE
+// ============================
+
+function abrirMenu() {
+
+  const menu = document.getElementById("navigation");
+
+  menu.classList.toggle("active");
+
+}
+
+
+// Fechar menu quando clicar num link
+
+document.querySelectorAll(".navigation a").forEach(link => {
+
+  link.addEventListener("click", () => {
+
+    document
+      .getElementById("navigation")
+      .classList.remove("active");
+
+  });
+
+});
+
+
+// ============================
+// LOGIN / CADASTRO
+// ============================
+
+function abrirModal(tipo) {
+
+  const modal = document.getElementById("authModal");
+
+  modal.classList.add("active");
+
+  trocarAuth(tipo);
+
+}
+
+
+function fecharModal() {
+
+  document
+    .getElementById("authModal")
+    .classList.remove("active");
+
+}
+
+
+function trocarAuth(tipo) {
+
+  const login = document.getElementById("loginForm");
+  const cadastro = document.getElementById("cadastroForm");
+
+  if (tipo === "login") {
+
+    login.classList.remove("hidden");
+    cadastro.classList.add("hidden");
+
+  } else {
+
+    login.classList.add("hidden");
+    cadastro.classList.remove("hidden");
+
+  }
+
+}
+
+
+// Fechar modal clicando fora
+
+document
+  .getElementById("authModal")
+  .addEventListener("click", function(event) {
+
+    if (event.target === this) {
+
+      fecharModal();
+
+    }
+
+  });
+
+
+// ============================
+// DETALHES DAS ÁREAS
+// ============================
+
+function mostrarDetalhe(area) {
+
+  const modal = document.getElementById("detailModal");
+
+  const titulo = document.getElementById("detailTitle");
+
+  const texto = document.getElementById("detailText");
+
+
+  const textos = {
+
+    "Agricultura":
+      "A agricultura representa uma das bases fundamentais do agronegócio. Nesta área, a Morais Comercial procura acompanhar oportunidades relacionadas com o desenvolvimento da actividade agrícola.",
+
+    "Soluções para Agricultura":
+      "Esta área está relacionada com oportunidades e soluções que possam contribuir para uma actividade agrícola mais eficiente, organizada e sustentável.",
+
+    "Agronegócio":
+      "O agronegócio envolve diferentes actividades ao longo da cadeia de valor agrícola. A Morais Comercial procura estabelecer relações e oportunidades dentro deste ecossistema.",
+
+    "Parcerias":
+      "Acreditamos que relações profissionais sólidas são fundamentais para criar oportunidades sustentáveis. Estamos abertos ao diálogo com parceiros e organizações."
+  
+  };
+
+
+  titulo.textContent = area;
+
+  texto.textContent =
+    textos[area] ||
+    "Informações sobre esta área serão disponibilizadas pela empresa.";
+
+  modal.classList.add("active");
+
+}
+
+
+function fecharDetalhe() {
+
+  document
+    .getElementById("detailModal")
+    .classList.remove("active");
+
+}
+
+
+// ============================
+// FORMULÁRIO CONTACTO
+// ============================
+
+document
+  .getElementById("contactForm")
+  .addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    alert(
+      "Obrigado pela sua mensagem. O formulário está pronto visualmente. Para receber mensagens reais, será necessário ligar o formulário a um serviço de backend."
+    );
+
+    this.reset();
+
+  });
+
+
+// ============================
+// NEWSLETTER
+// ============================
+
+document
+  .getElementById("newsletterForm")
+  .addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    alert(
+      "Obrigado por subscrever as actualizações da Morais Comercial."
+    );
+
+    this.reset();
+
+  });
+
+
+// ============================
+// ANO AUTOMÁTICO
+// ============================
+
+document.getElementById("ano").textContent =
+  new Date().getFullYear();
+
+
+// ============================
+// FECHAR MODAIS COM ESC
+// ============================
+
+document.addEventListener("keydown", function(event) {
+
+  if (event.key === "Escape") {
+
+    fecharModal();
+    fecharDetalhe();
+
+  }
+
+});
