@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="pt-MZ">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Morais Comercial LDA | Agronegócio e Soluções Agrícolas</title>
+<meta name="description" content="Morais Comercial LDA — sementes, insumos agrícolas, assistência técnica e soluções para produtores em Moçambique.">
+<meta property="og:title" content="Morais Comercial LDA | Agronegócio e Soluções Agrícolas">
+<meta property="og:description" content="Sementes certificadas, insumos agrícolas e assistência técnica para produtores em Moçambique.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_76jvmdq9zf810rrfbwzmq8jkcp/85a6e0e4886099231ba1797844a128a9_1789702920942.png">
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap');
+
+:root{
+  --cream:#FAF6EC;
+  --paper:#F3EEDF;
+  --forest:#1F3A24;
+  --forest-dark:#152A1A;
+  --clay:#A9622F;
+  --wheat:#D9A441;
+  --ink:#26241D;
+  --line:#DAD2BE;
+  --white:#FFFDF8;
+}
+
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{
+  background:var(--cream);
+  color:var(--ink);
+  font-family:'Inter',sans-serif;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+h1,h2,h3{font-family:'Fraunces',serif;color:var(--forest-dark);line-height:1.15;font-weight:600;}
+ul{list-style:none;}
+
+.wrap{max-width:1120px;margin:0 auto;padding:0 28px;}
+section{padding:84px 0;}
+section[id]{scroll-margin-top:90px;}
+
+/* Header */
+.site-header{position:sticky;top:0;z-index:50;background:var(--cream);border-bottom:1px solid var(--line);}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between;height:78px;}
+.brand{display:flex;align-items:center;gap:12px;font-family:'Fraunces',serif;font-weight:600;font-size:1.05rem;color:var(--forest-dark);}
+.brand img{height:40px;width:40px;object-fit:cover;border-radius:6px;}
+.main-nav{display:flex;align-items:center;gap:30px;}
+.main-nav a{font-size:0.95rem;color:var(--ink);position:relative;padding:4px 0;}
+.main-nav a.active,.main-nav a:hover{color:var(--forest);}
+.main-nav a.active::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:2px;background:var(--wheat);}
+.header-actions{display:flex;align-items:center;gap:20px;}
+.icon-link{font-size:0.95rem;color:var(--forest);border:1px solid var(--forest);padding:9px 20px;border-radius:2px;}
+.icon-link:hover{background:var(--forest);color:var(--white);}
+.menu-toggle{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:6px;}
+.menu-toggle span{width:22px;height:2px;background:var(--forest-dark);display:block;}
+
+/* Buttons */
+.btn{display:inline-block;padding:13px 26px;border-radius:2px;font-size:0.95rem;font-weight:500;border:1px solid transparent;}
+.btn-primary{background:var(--forest);color:var(--white);}
+.btn-primary:hover{background:var(--forest-dark);}
+.btn-outline{border-color:var(--white);color:var(--white);}
+.btn-outline:hover{background:var(--white);color:var(--forest-dark);}
+.btn-dark{background:var(--forest);color:var(--white);}
+.btn-dark:hover{background:var(--forest-dark);}
+.link-more{color:var(--clay);font-weight:500;font-size:0.95rem;white-space:nowrap;}
+.link-more:hover{color:var(--forest);}
+
+/* Hero */
+.hero{position:relative;color:var(--white);background-size:cover;background-position:center;}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg, rgba(21,42,26,.5) 0%, rgba(21,42,26,.82) 100%);}
+.hero .wrap{position:relative;padding:150px 28px 90px;}
+.hero-inner{max-width:600px;}
+.eyebrow{display:block;font-size:0.95rem;color:var(--wheat);margin-bottom:16px;}
+.hero h1{font-size:clamp(2.4rem,5vw,3.6rem);color:var(--white);margin-bottom:18px;}
+.hero p{font-size:1.1rem;color:#EFE9D8;max-width:44ch;margin-bottom:32px;}
+.btn-row{display:flex;gap:16px;flex-wrap:wrap;}
+
+/* Section hero band (used inside single page for each "page" section) */
+.section-band{background:var(--forest-dark);color:var(--white);padding:70px 0 54px;}
+.section-band h2{color:var(--white);font-size:clamp(2rem,4vw,2.6rem);margin-bottom:12px;}
+.section-band p{color:#D9D2BE;max-width:52ch;}
+
+/* Stats strip */
+.stats{background:var(--white);border-bottom:1px solid var(--line);border-top:1px solid var(--line);}
+.stats .wrap{display:grid;grid-template-columns:repeat(3,1fr);}
+.stat{padding:44px 32px;border-left:1px solid var(--line);}
+.stat:first-child{border-left:none;}
+.stat h2{font-size:2rem;color:var(--clay);margin-bottom:8px;}
+.stat p{font-size:0.98rem;color:#544F3F;}
+
+/* Split layout */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;}
+.split img{border-radius:4px;}
+.split h2{margin-bottom:16px;}
+.split p{color:#544F3F;margin-bottom:14px;}
+
+/* Section head */
+.section-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:44px;flex-wrap:wrap;}
+.section-head h2{font-size:clamp(1.7rem,3vw,2.2rem);margin-bottom:10px;}
+.section-head p{color:#544F3F;font-size:1.02rem;}
+
+/* Services list */
+.service-list{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
+.service-row{background:var(--white);padding:32px;}
+.service-row h3{font-size:1.1rem;margin-bottom:8px;}
+.service-row p{color:#544F3F;font-size:0.96rem;}
+
+/* Filters + products */
+.filter-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:40px;}
+.filter-pill{padding:9px 18px;border:1px solid var(--line);border-radius:999px;font-size:0.9rem;background:var(--white);cursor:pointer;color:var(--ink);}
+.filter-pill.active{background:var(--forest);color:var(--white);border-color:var(--forest);}
+.empty-state{border:1px dashed var(--line);background:var(--white);padding:56px 40px;text-align:center;max-width:560px;margin:0 auto;}
+.empty-state h3{margin-bottom:12px;font-size:1.2rem;}
+.empty-state p{color:#544F3F;margin-bottom:24px;}
+
+/* Gallery */
+.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;}
+.gallery-grid figure{position:relative;overflow:hidden;border-radius:4px;}
+.gallery-grid img{height:220px;width:100%;object-fit:cover;transition:transform .4s ease;}
+.gallery-grid figure:hover img{transform:scale(1.05);}
+.gallery-grid figcaption{position:absolute;left:0;right:0;bottom:0;padding:14px;font-size:0.82rem;color:var(--white);background:linear-gradient(0deg, rgba(21,42,26,.85), transparent);}
+
+/* Stores */
+.store-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
+.store-card{background:var(--white);padding:32px;}
+.store-card .tag{display:block;font-size:0.8rem;color:var(--clay);margin-bottom:8px;}
+.store-card h3{font-size:1.15rem;}
+
+/* Values (sobre) */
+.values-list{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 40px;margin-top:10px;}
+.values-list li{padding:16px 0;border-top:1px solid var(--line);font-family:'Fraunces',serif;color:var(--forest-dark);font-size:1.05rem;}
+
+/* Contact cards */
+.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
+.contact-card{background:var(--white);padding:36px;}
+.contact-card h3{font-size:1.1rem;margin-bottom:8px;}
+.contact-card .value{color:var(--clay);font-weight:600;font-size:1.2rem;margin-bottom:20px;}
+.contact-card .btn{width:100%;text-align:center;}
+
+/* Footer */
+footer{background:var(--forest-dark);color:#D9D2BE;padding:64px 0 28px;}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,.12);}
+.footer-brand{display:flex;gap:12px;align-items:flex-start;}
+.footer-brand img{height:38px;width:38px;border-radius:6px;object-fit:cover;}
+.footer-brand p{font-size:0.92rem;max-width:34ch;color:#B9B29B;margin-top:4px;}
+footer h4{color:var(--white);font-size:0.95rem;margin-bottom:16px;font-weight:600;}
+footer li{margin-bottom:10px;font-size:0.92rem;}
+footer li a:hover{color:var(--white);}
+.footer-bottom{padding-top:22px;font-size:0.85rem;color:#8D8770;}
+
+/* WhatsApp floating button */
+.wa-float{position:fixed;bottom:26px;right:26px;background:var(--forest);color:var(--white);width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(0,0,0,.25);z-index:60;}
+.wa-float svg{width:26px;height:26px;}
+.wa-float:hover{background:var(--forest-dark);}
+
+/* Divider between the "page" sections stitched into one file */
+.page-divider{height:1px;background:var(--line);}
+
+@media (max-width:860px){
+  .main-nav{display:none;position:absolute;top:78px;left:0;right:0;background:var(--cream);flex-direction:column;gap:0;border-bottom:1px solid var(--line);}
+  .main-nav.open{display:flex;}
+  .main-nav a{padding:16px 28px;width:100%;border-top:1px solid var(--line);}
+  .menu-toggle{display:flex;}
+  .split,.stats .wrap,.service-list,.store-grid,.contact-grid,.footer-grid,.values-list{grid-template-columns:1fr;}
+  .gallery-grid{grid-template-columns:repeat(2,1fr);}
+  .stat{border-left:none;border-top:1px solid var(--line);}
+  .stat:first-child{border-top:none;}
+  .service-row,.store-card,.contact-card{border-bottom:1px solid var(--line);}
+  .section-head{align-items:flex-start;}
+  .hero .wrap{padding:110px 28px 64px;}
+}
+@media (max-width:600px){
+  .footer-bottom{text-align:center;}
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#inicio">
+      <img src="https://moraiscomercial.lovable.app/__l5e/assets-v1/02262cbc-bf76-4bd6-85f4-956ee9d71240/morais-comercial-logo.jpg" alt="Morais Comercial LDA">
+      <span>Morais Comercial</span>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#inicio">Início</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Sobre nós</a>
+      <a href="#contactos">Contactos</a>
+    </nav>
+    <div class="header-actions">
+      <a class="icon-link" href="#contactos">Falar connosco</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- INÍCIO -->
+<section class="hero" id="inicio" style="background-image:url('https://moraiscomercial.lovable.app/assets/hero-campo-D1wZJgHM.jpg')">
+  <div class="wrap">
+    <div class="hero-inner">
+      <span class="eyebrow">Agronegócio em Moçambique</span>
+      <h1>Morais Comercial LDA</h1>
+      <p>Parceiro na agricultura, sementes e soluções para o crescimento do produtor.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="#produtos">Ver produtos</a>
+        <a class="btn btn-outline" href="#servicos">Conheça os nossos serviços</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="stats">
+  <div class="wrap">
+    <div class="stat"><h2>+15 anos</h2><p>de experiência no mercado moçambicano do agronegócio.</p></div>
+    <div class="stat"><h2>3 lojas</h2><p>Nampula, Pemba e Chimoio.</p></div>
+    <div class="stat"><h2>Sementes certificadas</h2><p>Produção, processamento e comercialização.</p></div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap split">
+    <img src="https://moraiscomercial.lovable.app/assets/sementes-DnWLV310.jpg" alt="Sementes de milho certificadas">
+    <div>
+      <h2>Sobre a Morais Comercial</h2>
+      <p>A Morais Comercial Lda é uma empresa do ramo do agronegócio, vocacionada para a produção, processamento e venda de sementes certificadas, comércio geral e outros insumos agrícolas.</p>
+      <p>A empresa possui mais de 15 anos de experiência no mercado moçambicano e possui lojas em Nampula, Pemba e Chimoio.</p>
+      <a class="link-more" href="#sobre">Saber mais</a>
+    </div>
+  </div>
+</section>
+
+<div class="page-divider"></div>
+
+<!-- PRODUTOS -->
+<section id="produtos">
+  <div class="wrap">
+    <div class="section-head">
+      <div><h2>Produtos</h2><p>Sementes certificadas, insumos agrícolas e comércio geral.</p></div>
+    </div>
+    <div class="filter-row">
+      <button class="filter-pill active">Todas</button>
+      <button class="filter-pill">Sementes</button>
+      <button class="filter-pill">Insumos agrícolas</button>
+      <button class="filter-pill">Comércio geral</button>
+    </div>
+    <div class="empty-state">
+      <h3>O catálogo está a ser preparado</h3>
+      <p>Ainda não temos produtos publicados nesta página. Fale connosco por WhatsApp ou telefone para conhecer os preços e a disponibilidade actual.</p>
+      <a class="btn btn-dark" href="https://wa.me/258870528285?text=Ol%C3%A1%20Morais%20Comercial%20LDA%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20vossos%20produtos.">Perguntar no WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<div class="page-divider"></div>
+
+<!-- SERVIÇOS -->
+<section id="servicos">
+  <div class="wrap">
+    <div class="section-head">
+      <div><h2>Nossos Serviços</h2><p>Serviços prestados pela Morais Comercial LDA a produtores agrícolas e pecuários.</p></div>
+    </div>
+    <div class="service-list">
+      <div class="service-row"><h3>Assistência técnica agro-pecuária</h3><p>Acompanhamento técnico a produtores agrícolas e pecuários.</p></div>
+      <div class="service-row"><h3>Venda de insumos agrícolas e comércio geral</h3><p>Sementes certificadas, insumos agrícolas e comércio geral.</p></div>
+      <div class="service-row"><h3>Instalação e manutenção de sistema de irrigação</h3><p>Instalação e manutenção de sistemas de rega.</p></div>
+      <div class="service-row"><h3>Construção de aviário</h3><p>Construção de aviários.</p></div>
+      <div class="service-row"><h3>Preparação de ração</h3><p>Preparação de ração.</p></div>
+      <div class="service-row"><h3>Transporte e logística de produtos agrícolas e pecuária</h3><p>Transporte e logística de produtos agrícolas e de pecuária.</p></div>
+      <div class="service-row"><h3>Inspecção e monitoria de campos</h3><p>Inspecção e monitoria de campos de produção.</p></div>
+      <div class="service-row"><h3>Consultoria em agronegócio e gestão agrícola</h3><p>Consultoria em agronegócio e gestão agrícola.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--paper); border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding-top:56px; padding-bottom:56px;">
+  <div class="wrap">
+    <div class="gallery-grid" style="grid-template-columns:1fr 1fr;">
+      <figure><img src="https://moraiscomercial.lovable.app/assets/assistencia-DOyFglah.jpg" alt="Técnico a inspeccionar um campo de milho"><figcaption>Técnico a inspeccionar um campo de milho</figcaption></figure>
+      <figure><img src="https://moraiscomercial.lovable.app/assets/irrigacao-BC57wPir.jpg" alt="Sistema de rega gota-a-gota instalado num campo"><figcaption>Sistema de rega gota-a-gota</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section>
+  <div class="wrap">
+    <div class="section-head"><div><h2>Galeria</h2><p>Momentos e actividades da Morais Comercial LDA.</p></div></div>
+    <div class="gallery-grid">
+      <figure><img src="https://moraiscomercial.lovable.app/assets/hero-campo-D1wZJgHM.jpg" alt="Campo de milho em produção"><figcaption>Campo de milho em produção</figcaption></figure>
+      <figure><img src="https://moraiscomercial.lovable.app/assets/sementes-DnWLV310.jpg" alt="Sementes de milho certificadas"><figcaption>Sementes de milho certificadas</figcaption></figure>
+      <figure><img src="https://moraiscomercial.lovable.app/assets/irrigacao-BC57wPir.jpg" alt="Sistema de irrigação"><figcaption>Sistema de irrigação</figcaption></figure>
+      <figure><img src="https://moraiscomercial.lovable.app/assets/assistencia-DOyFglah.jpg" alt="Assistência técnica em campo"><figcaption>Assistência técnica em campo</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<div class="page-divider"></div>
+
+<!-- SOBRE -->
+<section id="sobre" style="background:var(--paper);">
+  <div class="wrap">
+    <div class="section-head"><div><h2>Sobre a Morais Comercial</h2><p>A Morais Comercial Lda é uma empresa do ramo do agronegócio, vocacionada para a produção, processamento e venda de sementes certificadas, comércio geral e outros insumos agrícolas.</p></div></div>
+
+    <div class="split" style="margin-bottom:64px;">
+      <div><p>A empresa possui mais de 15 anos de experiência no mercado moçambicano e possui lojas em Nampula, Pemba e Chimoio.</p></div>
+      <img src="https://moraiscomercial.lovable.app/__l5e/assets-v1/73730c58-f8ee-46b6-9385-36ba48fc6bde/cerimonia.jpg" alt="Representante da Morais Comercial LDA numa cerimónia pública de entrega de cheques">
+    </div>
+
+    <div class="split" style="margin-bottom:40px;">
+      <div><h2>Missão</h2><p>Fornecer sementes certificadas, insumos agrícolas e serviços que apoiem o crescimento do produtor moçambicano.</p></div>
+      <div><h2>Visão</h2><p>Ser uma referência no agronegócio em Moçambique, próxima do produtor e presente em mais regiões do país.</p></div>
+    </div>
+
+    <div>
+      <h2>Valores</h2>
+      <ul class="values-list">
+        <li>Qualidade</li>
+        <li>Confiança</li>
+        <li>Profissionalismo</li>
+        <li>Proximidade com o produtor</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head"><div><h2>Nossas lojas</h2></div></div>
+    <div class="store-grid">
+      <div class="store-card"><span class="tag">Loja</span><h3>Nampula</h3></div>
+      <div class="store-card"><span class="tag">Loja</span><h3>Pemba</h3></div>
+      <div class="store-card"><span class="tag">Loja</span><h3>Chimoio</h3></div>
+    </div>
+  </div>
+</section>
+
+<div class="page-divider"></div>
+
+<!-- CONTACTOS -->
+<section id="contactos" style="background:var(--paper);">
+  <div class="wrap">
+    <div class="section-head"><div><h2>Contactos</h2><p>Estamos disponíveis para atender o seu pedido.</p></div></div>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>WhatsApp</h3>
+        <div class="value">+258 870 528 285</div>
+        <a class="btn btn-dark" href="https://wa.me/258870528285?text=Ol%C3%A1%20Morais%20Comercial%20LDA!">Falar no WhatsApp</a>
+      </div>
+      <div class="contact-card">
+        <h3>Telefone</h3>
+        <div class="value">+258 840 528 289</div>
+        <a class="btn btn-dark" href="tel:+258840528289">Ligar agora</a>
+      </div>
+      <div class="contact-card">
+        <h3>Email</h3>
+        <div class="value" style="font-size:1rem;">mc.moraiscomercial@gmail.com</div>
+        <a class="btn btn-dark" href="mailto:mc.moraiscomercial@gmail.com">Enviar email</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="https://moraiscomercial.lovable.app/__l5e/assets-v1/02262cbc-bf76-4bd6-85f4-956ee9d71240/morais-comercial-logo.jpg" alt="Morais Comercial LDA">
+        <p>Produção, processamento e venda de sementes certificadas, comércio geral e outros insumos agrícolas.</p>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#sobre">Sobre nós</a></li>
+          <li><a href="#contactos">Contactos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contactos</h4>
+        <ul>
+          <li><a href="tel:+258840528289">+258 840 528 289</a></li>
+          <li><a href="https://wa.me/258870528285">+258 870 528 285 (WhatsApp)</a></li>
+          <li><a href="mailto:mc.moraiscomercial@gmail.com">mc.moraiscomercial@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Morais Comercial LDA. Todos os direitos reservados.</div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/258870528285?text=Ol%C3%A1%20Morais%20Comercial%20LDA%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.9.53 3.68 1.44 5.2L2 22l4.94-1.4A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm5.2 14.2c-.22.62-1.28 1.18-1.77 1.24-.45.06-1.02.09-1.65-.1-.38-.12-.87-.28-1.5-.55-2.64-1.14-4.36-3.8-4.5-3.98-.13-.18-1.08-1.44-1.08-2.74s.68-1.94.93-2.2c.24-.26.53-.33.7-.33h.5c.16 0 .38-.03.58.44.22.53.75 1.83.82 1.96.06.13.1.29.02.47-.08.18-.13.29-.25.44-.13.16-.27.35-.38.47-.13.13-.26.27-.11.53.15.26.68 1.12 1.46 1.82 1 .9 1.85 1.18 2.11 1.31.26.13.41.11.56-.06.16-.18.65-.76.83-1.02.18-.26.35-.21.58-.13.24.09 1.5.71 1.75.84.26.13.43.19.49.3.06.13.06.7-.16 1.32z"/></svg>
+</a>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var toggle = document.getElementById('menuToggle');
+  var nav = document.getElementById('mainNav');
+  if (toggle && nav) {
+    toggle.addEventListener('click', function () {
+      nav.classList.toggle('open');
+    });
+    nav.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () { nav.classList.remove('open'); });
+    });
+  }
+
+  var pills = document.querySelectorAll('.filter-pill');
+  pills.forEach(function (pill) {
+    pill.addEventListener('click', function () {
+      pills.forEach(function (p) { p.classList.remove('active'); });
+      pill.classList.add('active');
+    });
+  });
+
+  // Highlight the active nav link based on which section is in view
+  var sections = ['inicio','produtos','servicos','sobre','contactos'].map(function(id){ return document.getElementById(id); }).filter(Boolean);
+  var links = Array.prototype.slice.call(nav ? nav.querySelectorAll('a') : []);
+  function setActive(){
+    var scrollPos = window.scrollY + 120;
+    var current = sections[0];
+    sections.forEach(function(sec){ if (sec.offsetTop <= scrollPos) current = sec; });
+    links.forEach(function(link){
+      link.classList.toggle('active', link.getAttribute('href') === '#' + current.id);
+    });
+  }
+  window.addEventListener('scroll', setActive);
+  setActive();
+});
+</script>
+</body>
+</html>
